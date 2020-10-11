@@ -1,0 +1,23 @@
+.message-box {
+	text-align: left;
+	background-color: #4f93d6;
+	font-size: 14px;
+	width: 45%;
+	min-height: 50px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.code-box {
+	margin-bottom: 10px;
+	height: fit-content;
+	width: max-content;
+}
+
+.right {
+	margin-left: auto;
+}
+
+#coding-space-message {
+	pointer-events: none;
+}

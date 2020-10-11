@@ -1,0 +1,7 @@
+.chat-messages {
+	background-color: aqua;
+	padding: 20px;
+	min-width: 200px;
+	flex: 1 1 auto;
+	overflow-y: scroll;
+}

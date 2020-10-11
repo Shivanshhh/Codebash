@@ -1,0 +1,89 @@
+.chat-bottom {
+	width: 100%;
+	min-height: 55px;
+	background-color: royalblue;
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.chat-message-input-box {
+	width: 85%;
+	height: 90%;
+	resize: none;
+	padding: 5px;
+	font-size: 20px
+}
+
+.icon {
+	color: white;
+	height: 35px;
+	cursor: pointer;
+}
+
+.emoji-picker {
+	position: absolute;
+	z-index: 1;
+	bottom: 70px;
+}
+
+.code-editor {
+	background-color: black;
+	position: absolute;
+	z-index: 1;
+	bottom: 70px;
+	border: 5px solid lightblue;
+	border-radius: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+	z-index: 100;
+}
+
+.dropbtn {
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: black;
+    position: absolute;
+    min-width: 10rem;
+	z-index: 100;
+	font-size: 20px;
+	height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    border: 2px solid #3cc6f2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ce-option-buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.send-code {
+	cursor: pointer;
+}

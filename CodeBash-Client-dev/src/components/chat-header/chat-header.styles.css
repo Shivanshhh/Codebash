@@ -1,0 +1,6 @@
+.chat-header {
+	width: 100%;
+	min-height: 75px;
+	background-color: gold;
+	border: 2px solid black;
+}

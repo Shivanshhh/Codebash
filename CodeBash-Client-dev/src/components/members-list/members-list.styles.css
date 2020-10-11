@@ -1,0 +1,7 @@
+.members-list {
+	background-color: orange;
+	padding: 20px;
+	min-width: 250px;
+	overflow-y: scroll;
+	flex: 1 1 auto;
+}
